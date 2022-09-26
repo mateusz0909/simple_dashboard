@@ -1,77 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,200" />
 </head>
+
 <body>
     <div id="container">
-        <div class="sidebar"></div>
-        <div class="header"></div>
+        <div class="sidebar">
+            <div class="heading">
+                <img src="./sources/dashboard_icon.svg" />
+                <h1>DASHBOARD</h1>
+            </div>
+            <div class="main_menu">
+                <div class="menu_item">
+                    <img src="./sources/home.svg" alt="home">
+                    <h3>Home</h3>
+                </div>
+                <div class="menu_item">
+                    <img src="./sources/profile.svg" alt="home">
+                    <h3>Profile</h3>
+                </div>
+                <div class="menu_item">
+                    <img src="./sources/message.svg" alt="home">
+                    <h3>Messages</h3>
+                </div>
+                <div class="menu_item">
+                    <img src="./sources/history.svg" alt="home">
+                    <h3>History</h3>
+                </div>
+                <div class="menu_item">
+                    <img src="./sources/tasks.svg" alt="home">
+                    <h3>Tasks</h3>
+                </div>
+            </div>
+            <div class="footer_menu">
+                <div class="menu_item">
+                    <img src="./sources/settings.svg" alt="home">
+                    <h3>Settings</h3>
+                </div>
+                <div class="menu_item">
+                    <img src="./sources/support.svg" alt="home">
+                    <h3>Support</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="header">
+            <div class="column1">
+                <div class="search">
+
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+
+                </div>
+                <div class="profile">
+                    <img src="https://i.pravatar.cc/50?img=33" alt="" srcset="">
+                    <div class="wrapper">
+                        <h5>Hello there,</h5>
+                        <h3>Janush Kowalsky (@k.janush)</h3>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="column2">
+                <div class="notifications">
+                    <span class="material-symbols-outlined">
+                        notifications
+                    </span>
+                    <img src="https://i.pravatar.cc/35?img=33" alt="" srcset="">
+                    <h4>Janush Kowalsky</h4>
+                </div>
+
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Share</button>
+                    <button>Upload</button>
+                </div>
+            </div>
+
+        </div>
         <div class="content">
             <div class="projects-wrapper">
                 <h2>Your projects</h3>
-                <div class="projects">
-                    <div class="card">
-                        <h2>Super cool project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum, quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae consectetur neque ducimus dignissimos voluptate.</p>
+                    <div class="projects">
+                        <div class="card">
+                            <div class='border-line'></div>
+                            <h2>Super cool project</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum,
+                                quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae
+                                consectetur neque ducimus dignissimos voluptate.</p>
+                            <div class="action-icons">
+                                <span class="material-symbols-outlined">
+                                    heart_plus
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    add_location_alt
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    share
+                                </span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="card">
+                            <h2>Super cool project</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum,
+                                quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae
+                                consectetur neque ducimus dignissimos voluptate.</p>
+                            <div class="action-icons">
+                                <span class="material-symbols-outlined">
+                                    heart_plus
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    add_location_alt
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    share
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h2>Super cool project</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum,
+                                quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae
+                                consectetur neque ducimus dignissimos voluptate.</p>
+                            <div class="action-icons">
+                                <span class="material-symbols-outlined">
+                                    heart_plus
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    add_location_alt
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    share
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h2>Super cool project</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum,
+                                quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae
+                                consectetur neque ducimus dignissimos voluptate.</p>
+                            <div class="action-icons">
+                                <span class="material-symbols-outlined">
+                                    heart_plus
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    add_location_alt
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    share
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h2>Super cool project</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum,
+                                quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae
+                                consectetur neque ducimus dignissimos voluptate.</p>
+                            <div class="action-icons">
+                                <span class="material-symbols-outlined">
+                                    heart_plus
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    add_location_alt
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    share
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h2>Super cool project</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum,
+                                quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae
+                                consectetur neque ducimus dignissimos voluptate.</p>
+                            <div class="action-icons">
+                                <span class="material-symbols-outlined">
+                                    heart_plus
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    add_location_alt
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    share
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h2>Super cool project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum, quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae consectetur neque ducimus dignissimos voluptate.</p>
-                    </div>
-                    <div class="card">
-                        <h2>Super cool project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum, quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae consectetur neque ducimus dignissimos voluptate.</p>
-                    </div>
-                    <div class="card">
-                        <h2>Super cool project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum, quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae consectetur neque ducimus dignissimos voluptate.</p>
-                    </div>
-                    <div class="card">
-                        <h2>Super cool project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum, quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae consectetur neque ducimus dignissimos voluptate.</p>
-                    </div>
-                    <div class="card">
-                        <h2>Super cool project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vel illum, modi earum, quasi ut officiis enim, sapiente numquam ipsum hic doloremque natus eius beatae consectetur neque ducimus dignissimos voluptate.</p>
-                    </div>
-                </div>
             </div>
-       
+
+
+
+
             <div class="misc-wrapper">
-                <h2>Announcement</h3>
+                <h2>Announcements</h3>
 
-                <div class="misc">
-                    <div class="announcements">
+                    <div class="misc">
+                        <div class="announcements">
 
-                        <div class="announcement">
-                            <h4>Site maintenance</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita praesentium!</p>
+                            <div class="announcement">
+                                <h4>Site maintenance</h4>
+                                <p>Lorem ipsum dsdsdolor sit, amet consectetur adipisicing elit. Reprehenderit animi
+                                    nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur
+                                    necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita
+                                    praesentium!</p>
+                                <div class="action-icons">
+
+                                </div>
+                            </div>
+                            <div class="announcement">
+                                <h4>Site maintenance</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi
+                                    nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur
+                                    necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita
+                                    praesentium!</p>
+                            </div>
+                            <div class="announcement">
+                                <h4>Site maintenance</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi
+                                    nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur
+                                    necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita
+                                    praesentium!</p>
+                            </div>
+                            <div class="announcement">
+                                <h4>Site maintenance</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi
+                                    nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur
+                                    necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita
+                                    praesentium!</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="announcement">
-                        <h4>Site maintenance</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita praesentium!</p>
-                </div>
-                <div class="announcement">
-                    <h4>Site maintenance</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita praesentium!</p>
+                    <h2 style="margin-top: 3rem;">Trending</h3>
+                        <div class="trending">
+                            <div class="announcements">
+
+                                <div class="profile">
+                                    <img src="https://i.pravatar.cc/50?img=3" alt="" srcset="">
+                                    <div class="text-wrapper">
+                                        <h4>@Joshua</h4>
+                                        <p>Short desctiption</p>
+                                    </div>
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pravatar.cc/50?img=2" alt="" srcset="">
+                                    <div class="text-wrapper">
+                                        <h4>@Alexis</h4>
+                                        <p>Short desctiption</p>
+                                    </div>
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pravatar.cc/50?img=5" alt="" srcset="">
+                                    <div class="text-wrapper">
+                                        <h4>@Jane</h4>
+                                        <p>Short desctiption</p>
+                                    </div>
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pravatar.cc/50?img=8" alt="" srcset="">
+                                    <div class="text-wrapper">
+                                        <h4>@Jan</h4>
+                                        <p>Short desctiption</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
-            <div class="announcement">
-                <h4>Site maintenance</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit animi nesciunt inventore vel! Iure consectetur itaque delectus sint commodi pariatur necessitatibus possimus, non magni suscipit consequatur voluptatem natus expedita praesentium!</p>
-        </div>
-                    </div>
-                </div>
-                
-                    
-                <div class="trending"></div>
-            </div>
-           
+
         </div>
     </div>
-   
+
 </body>
+
 </html>
